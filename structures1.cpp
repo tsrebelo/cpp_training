@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 /*
@@ -21,6 +22,12 @@ string nome, peso, preco;
 
 bolo bolos[] = {};                  //array de bolos
 
+void arrayDimension(int* a){
+    
+    cout << "Tamanho do array A: " << sizeof(a) << endl;
+    cout << "Tamanho do array B: " << sizeof(a[0]) << endl;
+
+}
 
 int main(){
 
